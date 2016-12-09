@@ -21,4 +21,8 @@ public class Fibonacci {
         
         return b;
     }
+    public static int recursion (int n) {
+        if(n<3) return 1;
+        else return recursion(n-1)+recursion(n-2);
+    }
 }
